@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE hook PUBLIC "-//Liferay//DTD Hook 6.2.0//EN" "http://www.liferay.com/dtd/liferay-hook_6_2_0.dtd">
+
+<hook>
+	<custom-jsp-dir>/WEB-INF/jsps</custom-jsp-dir>
+    <struts-action>
+        <struts-action-path>/portal/login</struts-action-path>
+        <struts-action-impl>cz.topolik.login.PortalLoginAction</struts-action-impl>
+    </struts-action>
+    <struts-action>
+        <struts-action-path>/login/login</struts-action-path>
+        <struts-action-impl>cz.topolik.login.PortletLoginAction</struts-action-impl>
+    </struts-action>
+</hook>
