@@ -1,7 +1,11 @@
 lfr-captcha-login
 =================
 
-Checking captcha from login form
+Checking captcha from login form.
+
+*Supported versions*:
+* 6.2.0 - compatible
+* 6.1.x - not yet
 
 Install
 -------
